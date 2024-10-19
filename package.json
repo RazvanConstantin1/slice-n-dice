@@ -13,6 +13,7 @@
     "esl": "^11.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.27.0",
     "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
