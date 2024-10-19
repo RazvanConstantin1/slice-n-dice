@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <Link to="/">Slice-N-Dice</Link>
+      <Link to="/">Slice&Dice</Link>
       <p>Razvan</p>
     </header>
   );
