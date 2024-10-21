@@ -9,6 +9,7 @@ import store from "../../store.js";
 import { formatCurrency } from "../../utils/helpers.js";
 import { useDispatch } from "react-redux";
 import { fetchAddress } from "../user/userSlice.js";
+import Spinner from "../../ui/Spinner.jsx";
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
@@ -147,8 +148,6 @@ export async function action({ request }) {
     cart: JSON.parse(data.cart),
     priority: data.priority === "true",
   };
-
-  console.log(order);
 
   const errors = {};
 
